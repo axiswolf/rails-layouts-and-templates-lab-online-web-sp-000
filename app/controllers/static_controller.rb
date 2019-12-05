@@ -1,7 +1,7 @@
 class StaticController < ApplicationController
 
   def admin
-    render :home
+    render :'admin/home'
   end
 
 end
