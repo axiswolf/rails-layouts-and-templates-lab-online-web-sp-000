@@ -1,7 +1,6 @@
 class StoreAdminController < ApplicationController
-
+  layout 'admin'
   def home
-    render :'layouts/admin'
   end
 
   def orders
